@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext","dom"],
+    "baseUrl": "src",
+    "paths": {
+      "@/*": [ "./*"],
+      "@com": [ "./components/*"],
+      "@lib": [ "./libs/*"]
+    },
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src",
+    "typed-css.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+// "src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.scss", "tests/**/*.ts", "tests/**/*.tsx",
