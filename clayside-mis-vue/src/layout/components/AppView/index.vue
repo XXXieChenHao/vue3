@@ -1,7 +1,7 @@
 <!--
  * @Author: xie chenhao
  * @Date: 2022-02-13 21:38:43
- * @LastEditTime: 2022-02-13 21:38:44
+ * @LastEditTime: 2022-02-17 19:38:21
  * @LastEditors: xie chenhao
  * @Description: 
  * @FilePath: \clayside-mis-vue\src\layout\components\AppView\index.vue
@@ -9,7 +9,7 @@
 -->
 <template>
   <div>
- 
+    <router-view></router-view>
   </div>
 </template>
 

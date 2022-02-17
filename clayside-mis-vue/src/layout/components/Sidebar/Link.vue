@@ -1,7 +1,7 @@
 <!--
  * @Author: xie chenhao
  * @Date: 2022-02-13 22:13:30
- * @LastEditTime: 2022-02-13 23:16:41
+ * @LastEditTime: 2022-02-17 19:44:51
  * @LastEditors: xie chenhao
  * @Description: 
  * @FilePath: \clayside-mis-vue\src\layout\components\Sidebar\Link.vue
@@ -27,9 +27,9 @@ let isExternal: any = computed(() => {
   return isExternal(props.to)
 })
 const type = computed(() => {
-  // if (isExternal) {
-  //   return 'a'
-  // }
+  if (isExternal) {
+    return 'a'
+  }
   return 'router-link'
 })
 
